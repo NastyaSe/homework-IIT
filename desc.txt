@@ -1,0 +1,35 @@
+2 git init Serdeshnova
+2 cd Serdeshnova
+4 git add report.txt
+4 git commit -m "commit 1"
+5 git branch report
+5 git add report.txt
+5 git commit -m "coomit 1 in report branch"
+6 git checkout master
+6 git merge report
+7 git remote add origin https://github.com/NastyaSe/homework-IIT.git
+7 git push -u origin master
+7 git push -u origin report
+8 git checkout report
+8 git add report.txt
+8 git commit -m "commit 2 in report branch"
+8 git checkout master
+8 git merge report
+10 cd E:
+10 git init SerdeshnovaWEB
+10 cd SerdeshnovaWEB
+10 git add . 
+10 git commit -m "Добавлен сайт"
+10 git remote rm origin
+10 git remote add origin https://github.com/NastyaSe/nastyase.github.io.git
+10 git push -u origin master
+11 cd E:
+11 cd Serdeshnova
+11 git add report.txt
+11 git commit -m "commit 3"
+11 git remote rm origin
+11 git remote add origin https://github.com/NastyaSe/homework-IIT.git
+11 git push -u origin report
+11 git add desc.txt
+11 git commit -m "commit 4"
+11 git push -u origin master
